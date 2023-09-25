@@ -242,11 +242,12 @@ footer .social-icons p i {
 }
 
 footer h4 {
-  padding: 20px 0;
+  margin: 20px 0;
 }
 
-footer .copyright {
+footer .copyright p {
   margin: 20px 0;
+  font-weight: bold;
 }
 
 /*---------------- Mobile Styles - Homepage ------------------*/
@@ -305,7 +306,7 @@ aside {
 }
 
 .features h2 {
-  margin-bottom: 60px;
+  margin: 0 0 60px 0;
 }
 
 .features article {
@@ -339,7 +340,7 @@ aside {
 }
 
 .reviews h2 {
-  margin-bottom: 40px;
+  margin: 0 0 40px 0;
   line-height: 1;
 }
 
@@ -356,10 +357,14 @@ aside {
   background-color: #527158;
 }
 
+.mission h2 {
+  margin: 0;
+}
+
 .map figure {
   width: 100%;
   height: 0;
-  padding-bottom: 75%;
+  padding-bottom: 125%;
   overflow: hidden;
   position: relative;
 }
@@ -376,6 +381,10 @@ aside {
   display: flex;
   justify-content: center;
   background-color: #2a423a;
+}
+
+.contact-section h2 {
+  margin: 0;
 }
 
 .contact-content p {
@@ -399,7 +408,7 @@ aside {
 }
 
 .faq h2 {
-  margin-bottom: 40px;
+  margin: 0 0 40px 0;
   line-height: 1;
 }
 
@@ -590,10 +599,6 @@ aside {
 
   /* Reviews */
 
-  .reviews h2 {
-    margin: 0;
-  }
-
   .reviews h3 {
     margin: 0;
     width: 80%
@@ -617,6 +622,7 @@ aside {
 
   footer h4 {
     font-size: 24px;
+    padding-bottom: 20px;
   }
 
   footer p {
@@ -632,6 +638,10 @@ aside {
 
   footer .contact {
     margin-bottom: 0;
+  }
+
+  footer .social {
+    width: 45%;
   }
 
   footer .copyright {
@@ -777,6 +787,10 @@ aside {
   /* Footer */
   footer .content-wrapper {
     width: 960px;
+  }
+
+  footer .social {
+    width: 30%;
   }
 
   /*------------ About Page --------------*/
