@@ -227,6 +227,10 @@ footer .social-icons p {
   align-items: center;
 }
 
+footer i {
+  font-size: 1.31em;
+}
+
 footer h4 {
   padding: 20px 0;
 }
@@ -306,7 +310,8 @@ aside {
   flex-flow: row wrap;
 }
 
-.features-items .icon {
+.features i {
+  font-size: 3.75em;
   padding-bottom: 40px;
 }
 
